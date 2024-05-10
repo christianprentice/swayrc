@@ -9,6 +9,9 @@ font pango: 0xProto Medium 16
 # Border setting
 default_border pixel
 
+set $repeat_delay 100
+set $repeat_rate 20
+
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
@@ -34,7 +37,7 @@ set $menu wofi --show
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # Requires: desktop-backgrounds-compat, swaybg
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+output * bg /usr/share/backgrounds/sway/NZsheep.JPG fill
 #
 # Example configuration:
 #
